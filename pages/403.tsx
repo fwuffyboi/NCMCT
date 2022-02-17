@@ -11,7 +11,7 @@ const FourZeroThree: NextPage = () => {
                 <h1 className="text-2xl">Access denied. (403)</h1>
                 <h1 className="text-2xl">If you believe this was in error, contact us below.</h1>
                 <Link href="mailto:biscuitisnotacookie@protonmail.com">
-                <a className="text-2xl cursor-pointer">biscuitisnotacookie@protonmail.com</a>
+                    <a className="text-2xl cursor-pointer">biscuitisnotacookie@protonmail.com</a>
                 </Link>
             </div>
         </div>

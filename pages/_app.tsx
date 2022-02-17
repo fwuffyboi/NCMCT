@@ -6,7 +6,6 @@ import { Navbar } from '../components/navbar'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="h-screen">
-      <Navbar />
       <Component {...pageProps} />
     </div>
   )

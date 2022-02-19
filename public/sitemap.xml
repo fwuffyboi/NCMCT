@@ -1,0 +1,18 @@
+<!-- public/sitemap.xml -->
+<xml version="1.0" encoding="UTF-8">
+  <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>https://cosmos-cat.ml</loc>
+      <loc>https://cosmos-cat.ml/dev</loc>
+      <loc>https://cosmos-cat.ml/dev/intro</loc>
+
+      <!--Error code pages-->
+      <loc>https://cosmos-cat.ml/404</loc>
+      <loc>https://cosmos-cat.ml/403</loc>
+
+      <!--Misc. pages-->
+      <loc>https://cosmos-cat.ml/sitemap.xml</loc>
+
+    </url>
+  </urlset>
+</xml>

@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 
-const FourZeroThree: NextPage = () => {
+const FiveZeroTwo: NextPage = () => {
     return (
         <div className="flex h-screen bg-black text-white">
             <div className="m-auto">
@@ -18,4 +18,4 @@ const FourZeroThree: NextPage = () => {
     )
   }
   
-export default FourZeroThree
+export default FiveZeroTwo

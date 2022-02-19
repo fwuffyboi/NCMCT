@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Navbar } from '../../components/navbar'
+import { Footer } from '../../components/footer'
 
 const Home: NextPage = () => {
   return (
@@ -13,13 +14,12 @@ const Home: NextPage = () => {
         
         {/*screen 1, title.*/}
         <div className=''>
-          <h1 className="text-white text-5xl pb-5">Welcome To Cosmos Cat</h1>
+          <h1 className="text-white text-5xl pb-2">Welcome To Cosmos</h1>
           <p className='text-white text-3xl text-center'>Social media, open source.</p>
         </div>
-
       </div>
 
-      <div className="bg-gradient-to-r from-gray-800 to-black items-left justify-left p-3 flex h-1 sm:h-screen lg:h-screen">
+      <div className="bg-gradient-to-r from-gray-800 to-black items-center justify-center flex h-1 sm:h-screen lg:h-screen">
         
         {/*screen 2, about the developers.*/}
         <div className=''>
@@ -29,6 +29,7 @@ const Home: NextPage = () => {
         </div>
 
       </div>
+      <Footer />
     </div>
   )
 }

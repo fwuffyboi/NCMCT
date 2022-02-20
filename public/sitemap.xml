@@ -1,35 +1,77 @@
-<!-- public/sitemap.xml -->
-
-<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <!--Main pages-->
     <loc>https://cosmos-cat.ml/</loc>
-    <loc>https://cosmos-cat.ml/dev/</loc>
-    <loc>https://cosmos-cat.ml/dev/intro/</loc>
-
-    <!--Misc. pages-->
-    <loc>https://cosmos-cat.ml/therewasanerror</loc>
-    <loc>https://cosmos-cat.ml/sitemap.xml</loc>
-
-    <!--API pages-->
-    <loc>https://cosmos-cat.ml/api/hello</loc>
-
-    <!--Error code pages-->
-    <loc>https://cosmos-cat.ml/400</loc>
-    <loc>https://cosmos-cat.ml/401</loc>
-    <loc>https://cosmos-cat.ml/403</loc>
-    <loc>https://cosmos-cat.ml/404</loc>
-    <loc>https://cosmos-cat.ml/500</loc>
-    <loc>https://cosmos-cat.ml/502</loc>
-    <loc>https://cosmos-cat.ml/503</loc>
-    <loc>https://cosmos-cat.ml/504</loc>
-
-    <!--Media-->
-    <loc>https://cosmos-cat.ml/cosmos3-banner.png</loc>
-    <loc>https://cosmos-cat.ml/favicon.ico</loc>
-    <loc>https://cosmos-cat.ml/gradient.ico</loc>
-    <loc>https://cosmos-cat.ml/vercel.svg</loc>
-
   </url>
+  <url>
+    <loc>https://cosmos-cat.ml/dev</loc>
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/license</loc>
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/</loc>
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/dev/</loc>
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/dev/intro/</loc>
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/therewasanerror</loc>
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/sitemap.xml</loc>
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/400</loc>
+    
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/401</loc>
+    
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/403</loc>
+    
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/404</loc>
+    
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/500</loc>
+    
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/502</loc>
+    
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/503</loc>
+    
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/504</loc>
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/api/hello</loc>
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/cosmos3-banner.png</loc>
+    
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/favicon.ico</loc>
+    
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/gradient.ico</loc>
+   
+  </url>
+  <url>
+    <loc>https://cosmos-cat.ml/vercel.svg</loc>
+  </url>
+  
+  <script></script>
 </urlset>

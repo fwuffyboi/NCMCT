@@ -7,7 +7,9 @@ import { Footer } from '../components/footer'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="h-screen">
+      <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </div>
   )
 }

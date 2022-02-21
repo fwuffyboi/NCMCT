@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
+import type { NextApiRequest, NextApiResponse } from 'next'
 
 const FourZeroFour: NextPage = () => {
     return (
@@ -17,5 +18,5 @@ const FourZeroFour: NextPage = () => {
         </div>
     )
   }
-  
+
 export default FourZeroFour

@@ -16,8 +16,8 @@ export const Footer = () => {
               </Link>
             </div>
             <div className={footerCss}>
-              <Link href="/dev">
-                Dev
+              <Link href="/api">
+                Api
               </Link>
             </div>
             <div className={footerCss}>

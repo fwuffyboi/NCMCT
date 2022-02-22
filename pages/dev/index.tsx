@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <div id="root">
       <noscript>You need to enable JavaScript to run this app.</noscript>
-      <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 items-center justify-center flex h-1 sm:h-screen lg:h-screen">
+      <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 items-center justify-center flex h-1 sm:h-screen lg:h-screen h-screen">
         
         {/*screen 1, title.*/}
         <div className=''>
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gray-800 to-black items-center justify-center flex h-1 sm:h-screen lg:h-screen">
+      <div className="bg-gradient-to-r from-gray-800 to-black items-center justify-center flex h-1 sm:h-screen lg:h-screen h-screen">
         
         {/*screen 2, about the developers.*/}
         <div className=''>

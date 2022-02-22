@@ -12,8 +12,9 @@ const FourZeroFour: NextPage = () => {
                 <h1 className="text-2xl">Resource or page not found. (404)</h1>
                 <h1 className="text-2xl">If you believe this was in error, contact us below.</h1>
                 <Link href="mailto:biscuitisnotacookie@protonmail.com">
-                <a className="text-2xl cursor-pointer">biscuitisnotacookie@protonmail.com</a>
+                    <a className="text-2xl cursor-pointer text-blue-400">biscuitisnotacookie@protonmail.com</a>
                 </Link>
+                <h1 className="text-2xl">You can also <a href="/therewasanerror" className="text-2xl cursor-pointer text-blue-400">fill out an error form</a>.</h1>
             </div>
         </div>
     )

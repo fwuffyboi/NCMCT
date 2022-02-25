@@ -15,8 +15,8 @@ export const Navbar = () => {
           <div className="h-12 px-3 cursor-pointer hover:-translate-y-1 transition ease-in-out delay-50 duration-100">
             <Link href="https://trello.com/b/q4vqqj0z/cosmos-cat">
               <div className="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 16 16">
-                  <path d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 1000 1000" >
+                  <g><g><path d="M898.1,10H101.9C51.3,10,10,51.3,10,101.9v796.3c0,50.5,41.3,91.9,91.9,91.9h796.3c50.5,0,91.9-41.3,91.9-91.9V101.9C990,51.3,948.7,10,898.1,10z M438.8,745c0,33.7-27.6,61.3-61.3,61.3H255c-33.7,0-61.3-27.6-61.3-61.3V255c0-33.7,27.6-61.3,61.3-61.3h122.5c33.7,0,61.3,27.6,61.3,61.3V745z M806.3,561.3c0,33.7-27.6,61.3-61.3,61.3H622.5c-33.7,0-61.3-27.6-61.3-61.3V255c0-33.7,27.6-61.3,61.3-61.3H745c33.7,0,61.3,27.6,61.3,61.3V561.3z"/></g></g>
                 </svg>
                 {/*<h1>Trello</h1>*/}
               </div>

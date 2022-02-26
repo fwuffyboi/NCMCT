@@ -14,10 +14,19 @@ const FourZeroFour: NextPage = () => {
                 <Link href="mailto:biscuitisnotacookie@protonmail.com">
                     <a className="text-2xl cursor-pointer text-blue-400">biscuitisnotacookie@protonmail.com</a>
                 </Link>
-                <h1 className="text-2xl">You can also <a href="/therewasanerror" className="text-2xl cursor-pointer text-blue-400">fill out an error form</a>.</h1>
+                <div>
+                    <h1 className="text-2xl">You can also 
+                        <div className="text-2xl cursor-pointer text-blue-400">
+                            <Link href="/therewasanerror">
+                                fill out an error form
+                            </Link>
+                        </div>
+                        .
+                    </h1>
             </div>
         </div>
+    </div>
     )
-  }
+}
 
 export default FourZeroFour

@@ -1,14 +1,14 @@
-import type { NextPage } from 'next'
-import Link from 'next/link'
+import type { NextPage } from 'next';
+
 // useState nextjs
-import { useState } from 'react'
+import React, { useState } from 'react';
 
 import make from '../api/account/signup.js'
 
 const signup: NextPage = () => {
-    const [password, setPassword] = useState("")
-    const [confirmPassword, setConfirmPassword] = useState("")
-    const [matching, setMatching] = useState(true)
+    const [password, setPassword] = useState("");
+    const [confirmPassword, setConfirmPassword] = useState("");
+    const [matching, setMatching] = useState(true);
 
     const onPwdInputChange = (e: any) => {
         setPassword(e.target.value)

@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 import make from '../api/account/signup.js'
 
-const signup: NextPage = () => {
+const Signup: NextPage = () => {
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
     const [matching, setMatching] = useState(true);
@@ -107,4 +107,4 @@ const signup: NextPage = () => {
     )
 }
 
-export default signup
+export default Signup

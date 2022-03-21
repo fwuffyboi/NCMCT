@@ -15,11 +15,13 @@ export const Footer = () => {
                 Home
               </Link>
             </div>
+            {/*
             <div className={footerCss}>
               <Link href="/api">
                 Api
               </Link>
             </div>
+            */}
             <div className={footerCss}>
               <Link href="/sitemap.xml">
                 Sitemap

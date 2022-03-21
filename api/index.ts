@@ -32,9 +32,10 @@ export default function handler(
 
           "account": {
             1: "account/signup",
-            2: "account/destroy",
-            3: "account/change-password",
-            4: "account/edit"
+            2: "account/signin", 
+            3: "account/destroy",
+            4: "account/change-password",
+            5: "account/edit"
           },
 
           "forms": {

@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <link rel="preconnect" 
               href="https://fonts.gstatic.com">
         </link>
-        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&display=swap" 
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&apos;display=swap" 
               rel="stylesheet">        
         </link>
         

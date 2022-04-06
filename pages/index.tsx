@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <div className="bg-slate-700 text-5xl">
             <h1>Hello.</h1>
             <br />
-            <h1>This site is currently dormant as the developers are rethinking it's future.</h1>
+            <h1>This site is currently dormant as the developers are rethinking it&apos;s future.</h1>
             <br />
             <h1>Thank you for visiting.</h1>
             <br /><br />

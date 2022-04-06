@@ -3,7 +3,7 @@ import type { NextPage } from 'next';
 // useState nextjs
 import React, { useState } from 'react';
 
-import make from '../api/account/signup.js'
+import make from '../../api/account/signup.js'
 
 const Signup: NextPage = () => {
     const [password, setPassword] = useState("");

@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { Navbar } from '../../components/navbar'
+import { Navbar } from '../../../components/navbar'
 
 const FourZeroOne: NextPage = () => {
     return (

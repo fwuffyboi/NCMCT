@@ -1,33 +1,48 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { Navbar } from '../components/navbar'
-import { Footer } from '../components/footer'
+import Script from 'next/script'
+import { Navbar } from '../components/navbar-smthBig'
+// import styles from '../styles/somethingBIG.css'
 
 const Home: NextPage = () => {
   return (
-    <div id="root">
-      <noscript>You need to enable JavaScript to run this app.</noscript>
-      <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 items-center justify-center flex sm:h-screen lg:h-screen h-screen">
+    <div className='h-screen bg-slate-700'>
+        <Navbar />
+        <link rel="stylesheet" 
+            type="text/css" 
+            href="/smthBig.css">
+        </link>
+        <link rel="preconnect" 
+              href="https://fonts.gstatic.com">
+        </link>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&display=swap" 
+              rel="stylesheet">        
+        </link>
         
-        {/*screen 1, title.*/}
-        <div className=''>
-          <h1 className="text-white text-5xl pb-2">Welcome To Cosmos</h1>
-          <p className='text-white text-3xl text-center'>Social media, open source.</p>
+        <div className="bg-slate-700 text-5xl">
+            <h1>Hello.</h1>
+            <br />
+            <h1>This site is currently dormant as the developers are rethinking it's future.</h1>
+            <br />
+            <h1>Thank you for visiting.</h1>
+            <br /><br />
+            <h1>Sincerely, The Cosmos-Cat Team<a className='blink'>_</a></h1>
         </div>
-      </div>
-
-      <div className="bg-gradient-to-r from-gray-800 to-black items-center justify-center flex h-1 sm:h-screen lg:h-screen">
         
-        {/*screen 2, about the developers.*/}
-        <div className=''>
-        <h1 className="text-white text-5xl pb-5">DO THIS</h1>
-          <h1 className="text-white text-5xl pb-5">--</h1>
-          <p className='text-white text-3xl text-left'>--</p>
-        </div>
+        <div className="parent bg-cover bg-slate-700" id="bottom">
+            <div className="block1 bg-slate-700">
+                <Image src='/cautionImg.png' layout='fill' className="c1" />
+                <div className="c2"></div>
+                <div className="c3"></div>
+            </div>
 
-      </div>
+            <div className="block2 bg-cover bg-slate-700">
+                <Image src='/cautionImg.png' layout='fill' className="c1" />
+                <div className="c2"></div>
+                <div className="c3"></div>
+            </div>
+        </div>
     </div>
   )
 }

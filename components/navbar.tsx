@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const Navbar = () => {
     return (
@@ -7,7 +8,7 @@ export const Navbar = () => {
           <div className="h-12 px-3 cursor-pointer hover:-translate-y-1 transition ease-in-out delay-50 duration-100">
             <Link href="/">
               <div>
-                <img src="/favicon.ico" alt="favicon.ico" width="48" height="48"/>
+                <Image src="/favicon.ico" alt="favicon.ico" width="48" height="48"/>
               </div>   
             </Link>
           </div>

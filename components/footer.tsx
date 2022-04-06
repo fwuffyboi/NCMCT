@@ -11,7 +11,7 @@ export const Footer = () => {
         <nav className="bg-gradient-to-r from-gray-800 to-black px-2 text-white py-1">
           <div className="flex pt-5 pb-5">
             <div className={footerCss}>
-              <Link href="/">
+              <Link href="/oldsite">
                 Home
               </Link>
             </div>
@@ -33,11 +33,11 @@ export const Footer = () => {
             </div>
 
             <div className={footerCss}>
-              <Link href="/therewasanerror">Report error</Link>
+              <Link href="/oldsite/therewasanerror">Report error</Link>
             </div>
 
             <div className={footerCss}>
-              <Link href="/license">License</Link>
+              <Link href="/oldsite/license">License</Link>
             </div>
 
             <div id="spacer" className="flex-1">

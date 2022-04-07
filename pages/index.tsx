@@ -15,6 +15,8 @@ const Home: NextPage = () => {
             <br />
             <h1>This site is currently dormant as the developers are rethinking it&apos;s future.</h1>
             <br />
+            <h1>You may view the old site by clicking on the &quot;archive&quot; icon above.</h1>
+            <br />
             <h1>Thank you for visiting.</h1>
             <br /><br />
             <h1>Sincerely, The Cosmos-Cat Team<a className='blink'>_</a></h1>

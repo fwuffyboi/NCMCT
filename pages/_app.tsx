@@ -1,10 +1,12 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+
+// TODO: Sort props
+// import type { AppProps } from 'next/app'
 import { Navbar } from '../components/navbar'
 import { Footer } from '../components/footer'
 
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }) {
   return (
     <div className="h-screen">
       <Component {...pageProps} />

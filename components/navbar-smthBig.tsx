@@ -4,7 +4,7 @@ import Image from 'next/image'
 export const Navbar = () => {
   return (
     <div className="nav">
-      <nav className="bg-slate-800 flex filter drop-shadow-md px-4 py-4 h-20 items-center">
+      <nav className="bg-slate-500 flex filter drop-shadow-md px-4 py-4 h-20 items-center">
         <div className="h-12 px-3 cursor-pointer hover:-translate-y-1 transition ease-in-out delay-50 duration-100">
           <Link href="/oldsite">
             <div>

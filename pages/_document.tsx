@@ -10,7 +10,7 @@ export default function Document() {
             type="text/css" 
             href="/smthBig.css">
         </link>
-        <link rel="preconnect" 
+        <link rel="preconnect"
               href="https://fonts.gstatic.com">
         </link>
         <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&display=swap" 

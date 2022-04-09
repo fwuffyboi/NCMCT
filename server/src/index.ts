@@ -1,10 +1,9 @@
 // express
-import express from 'express';
-
+const express = require('express');
 const app = express();
 
-app.get("/", (req, res) => {
-    res.send("Test");
+app.get("/", (req: any, res: any) => {
+    res.send("Cosmos-Cat's ExpressJS Server");
 })
 
 app.listen(5000, () => {

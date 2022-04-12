@@ -8,7 +8,7 @@ export const Navbar = () => {
         <div className="h-12 px-3 cursor-pointer hover:-translate-y-1 transition ease-in-out delay-50 duration-100">
           <Link href="/">
             <div>
-              <Image src="https://cosmos-cat.ml/favicon.ico" alt="favicon.ico" width="48" height="48"/>
+              <Image src="/favicon.ico" alt="site icon" width="48" height="48"/>
             </div>   
           </Link>
         </div>

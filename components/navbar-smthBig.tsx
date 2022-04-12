@@ -6,9 +6,9 @@ export const Navbar = () => {
     <div className="nav">
       <nav className="bg-slate-900 flex filter drop-shadow-md px-4 py-4 h-20 items-center">
         <div className="h-12 px-3 cursor-pointer hover:-translate-y-1 transition ease-in-out delay-50 duration-100">
-          <Link href="/oldsite">
+          <Link href="/">
             <div>
-              <Image src="/favicon.ico" alt="favicon.ico" width="48" height="48"/>
+              <Image src="https://cosmos-cat.ml/favicon.ico" alt="favicon.ico" width="48" height="48"/>
             </div>   
           </Link>
         </div>

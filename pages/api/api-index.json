@@ -1,0 +1,31 @@
+{
+    "1": "This is the API index page. If you got here by accident, dont worry, you didnt break anything.",
+    "2": "If you're here on purpose, here are the usable URL's with our API.",
+    
+    "urls": {
+      "compose": {
+        "1": "compose/post",
+        "2": "compose/status",
+        "3": "compose/reply"
+      },
+    
+      "stats": {
+        "1": "stats/accounts",
+        "2": "stats/replys",
+        "3": "stats/posts",
+        "4": "stats/statuses",
+        "5": "stats/server-uptime"
+      },
+    
+      "account": {
+        "1": "account/signup",
+        "2": "account/destroy",
+        "3": "account/change-password",
+        "4": "account/edit"
+      },
+    
+      "forms": {
+        "1": "forms/therewasanerror"
+      }
+    }
+}

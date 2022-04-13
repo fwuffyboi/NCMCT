@@ -1,34 +1,23 @@
 {
-  "name": "cosmos3",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "concurrently \"cd server && npm run dev\" \"npm run next-dev\"",
-    "build": "concurrently \"cd server && npm run build\" \"npm run next-build\"",
-    "start": "concurrently \"cd server && npm run start\" \"npm run next-start\"",
-    "lint": "next lint",
-    "next-dev": "next dev",
-    "next-build": "next build",
-    "next-start": "next start",
-    "next-lint": "next lint"
-  },
-  "dependencies": {
-    "concurrently": "^7.0.0",
-    "express": "^4.17.3",
-    "mongoose": "^6.2.3",
-    "next": "12.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.18",
-    "@types/react": "17.0.39",
-    "autoprefixer": "^10.4.2",
-    "eslint": "8.9.0",
-    "eslint-config-next": "12.1.0",
-    "nodemon": "^2.0.15",
-    "postcss": "^8.4.6",
-    "tailwindcss": "^3.0.23",
-    "typescript": "4.5.5"
-  }
+    "private": true,
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "next": "latest",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "swr": "^1.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.23",
+        "@types/react": "^18.0.3",
+        "autoprefixer": "^10.4.4",
+        "postcss": "^8.4.12",
+        "tailwindcss": "^3.0.24",
+        "themeparks": "^5.1.53",
+        "typescript": "^4.6.3"
+    }
 }

@@ -21,5 +21,4 @@ const FourZeroZero: NextPage = () => {
   }
 
 
-  export default FourZeroZero
-
+export default FourZeroZero
